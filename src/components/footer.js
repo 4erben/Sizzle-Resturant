@@ -13,10 +13,10 @@ export default function Footer() {
         <h2 className="fw-bold bs-orange mx-2">Sizzle</h2>
         </div>
               <div className="social-links  d-flex justify-content-between align-items-center flex-gap-20"> 
-                <a href="#"><i class="fa-brands fa-twitter bs-orange"></i></a> 
-                <a href="#"><i class="fa-brands fa-facebook bs-orange"></i></a> 
-                <a href="#"><i class="fa-brands fa-instagram bs-orange"></i></a> 
-                <a href="#"><i class="fa-brands fa-youtube bs-orange"></i></a> 
+                <button className='btn'><i class="fa-brands fa-twitter bs-orange"></i></button> 
+                <button className='btn'><i class="fa-brands fa-facebook bs-orange"></i></button> 
+                <button className='btn'><i class="fa-brands fa-instagram bs-orange"></i></button> 
+                <button className='btn'><i class="fa-brands fa-youtube bs-orange"></i></button> 
             </div> 
           </Col> 
         </Row> 
