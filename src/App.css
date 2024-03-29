@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+:root{
+    --bs-white: #ffffff;
+    --bs-custom-black: #000000;
+    --bs-custom-orange: rgba(211, 124, 52);
+    --bs-darker: rgb(3, 3, 3);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    /* Width of scrollbar */
+    ::-webkit-scrollbar {
+        width: 8px;
+      }
+  
+      /* Track (the background of the scrollbar) */
+      ::-webkit-scrollbar-track {
+        background: #070707;
+      }
+  
+      /* Handle (the draggable part of the scrollbar) */
+      ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 20px;
+      }
+  
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--bs-custom-orange);
+      }
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-orange{
+    background-color: var(--bs-custom-orange) !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-t-orange{
+    background-color: rgba(211, 123, 52, 0.575) !important;
 }
-
-.App-link {
-  color: #61dafb;
+.flex-gap-20{
+    gap: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App{
+   /*  background: url("./assets/stocksnap_.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    min-height: 100vh;
+    background-color: rgb(104, 48, 48);
+}
+.text-cyan{
+    color: rgb(42, 166, 204);
+}
+.text-mint{
+    color: #78a191;
+}
+.text-grey{
+    color: #1d374e;
+}
+.link-destyle{
+    text-decoration: none;
+    color: inherit;
+}
+.text-wrap{
+    text-wrap: wrap;
 }

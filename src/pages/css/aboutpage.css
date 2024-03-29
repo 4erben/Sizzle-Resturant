@@ -1,0 +1,32 @@
+.about-container{
+    background: url("../assets/ivan.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* background-color: rgb(104, 48, 48); */
+    min-height: 100vh;
+}
+.about-row1{
+    background: url("../assets/jayh.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+.about-row2{
+    background: url("../assets/hans.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+.about-row3{
+    background: url("../assets/brick-wall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+.about-row3-2{
+    background: url("../assets/brick-wall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}

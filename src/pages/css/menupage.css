@@ -1,0 +1,37 @@
+.menupage-container{
+    min-height: 100vh;
+    background-image: url("../assets/rohan.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.grid-gap{
+    grid-gap:10px;
+}
+.w-40{
+    width:40% !important
+}
+.menu-button{
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.menu-button:hover{
+    background-color: var(--bs-custom-orange);
+    border-radius: 20px;
+}
+.btn-active{
+    color: white;
+    background-color: var(--bs-custom-orange);
+    border: 1px;
+    border-radius: 20px;
+}
+.menu-item{
+    background-color: rgba(63, 55, 18, 0.151);
+    overflow: hidden;
+}
+.menu-item:hover{
+    background-color:rgba(63, 55, 18, 0.397); 
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+a a{
+    text-decoration: none;
+}
+.homepage-container{
+    background: url("../assets/stocksnap_.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height: 100vh;
+}
+.bg-c-transparent{
+    background-color: rgba(48, 40, 49, 0.295);
+}
+.book-table-btn{
+    border: 2px solid var(--bs-custom-orange);
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline;
+}
+.btn-menu{
+    display: inline;
+    color: var(--bs-white);
+    border: 2px solid var(--bs-custom-orange);
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+.dark-mode:hover{
+    cursor: pointer;
+}
+.btn-menu:hover{
+    color: var(--bs-custom-orange);
+}
+.navbar-collapse a ,.navbar-collapse div{
+    color: white;
+}
+.navbar-collapse a:hover,.navbar-collapse div:hover{
+    color: orange;
+}
+.bs-orange{
+    color: var(--bs-custom-orange);
+    
+}
+.text-shadow{
+    text-shadow: 2px 2px 4px red;
+}
+.fs-10{
+    font-size: 1.5rem;
+}
+/* .box-shadow{
+    background-color: rgba(151, 179, 26, 0.219);;
+} */
+@media screen and (min-width:768px)  {
+    .fs-10{
+        font-size: 0.8rem;
+    }
+}
