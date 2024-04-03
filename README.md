@@ -4,5 +4,5 @@ A Restuarnt app that contains a home page which you can book a table and gallery
 
 ## Live Demo :
 
-(https://sizzleresturant.netlify.app/gallery)
+(https://sizzleresturant.netlify.app/)
 
