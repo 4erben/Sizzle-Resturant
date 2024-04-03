@@ -7,7 +7,7 @@ export default function NavBar({margin}) {
         setDarkMode(!isDarkMode);
     } */
   return (
-    <Navbar expand="lg" className={`my-5 bg-c-transparent p-2 fixed-top`}>
+    <Navbar expand="lg" className="my-5 bg-c-transparent p-2 fixed-top">
     <Container fluid>
         <Navbar.Brand className="ms-5 "><Link className="link-destyle" to="/"><i className="fa-solid fa-utensils bs-orange"></i></Link></Navbar.Brand>
         

@@ -12,7 +12,7 @@ import BookPage from './pages/bookpage.js';
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App">
       <NavBar />
       <Routes >
         <Route
